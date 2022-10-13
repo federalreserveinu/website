@@ -1,0 +1,177 @@
+/*------------- FOR ALL AUTOMATIC TABLES FROM EXCEL FORMAT - ALL PUBLICATION DITA TABLES----------------*/
+/* ALTERNATING ROWS WITH JQUERY - SHADES EVERY OTHER ROW IN RUNTIME */
+table.pubtables tr.alt  {background-color:#f0ead0;}
+
+/* OVERALL TABLE STYLES */
+table.pubtables {margin:1em 0 0.25em 0; font-size:0.90em; padding: 0 0 0 0; border-collapse:collapse;}
+table.pubtables .tablehead {font-weight:bold; text-align:left; color:#253750; padding-bottom:0.5em;}
+table.pubtables .tableunit {font-size:0.85em; font-weight:normal; color:#253750;}
+table.pubtables .tablesubhead {font-size:0.85em; font-weight:bold; text-align:left; color:#253750;}
+
+/* COLUMN HEADS and LINKS */
+table.pubtables .colhead {color:#FFF; font-weight:bold; background-color:#253750; text-align:center; padding:0.5em; border-right:.01em solid white; border-top:.01em solid white;}
+table.pubtables .colhead a:link {color:#fff;}
+table.pubtables .colhead a:visited {color:#fcf8e4;}
+
+/*STUBS*/
+table.pubtables .stub {font-weight:normal; text-align:left; vertical-align:top; padding:0.35em; border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc;}
+table.pubtables .emptystub {text-align:left; font-size:0.6em; font-weight: normal; padding:0.35em; border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc;}
+
+/*DATA*/
+table.pubtables .data {font-weight:normal; text-align:right; vertical-align:bottom; padding:0.35em; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+table.pubtables .data2 {font-weight:normal; text-align:center; vertical-align:bottom; padding:0.35em; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+table.pubtables .totaldata {font-weight:bold; vertical-align:bottom; text-align:right; padding:0.35em; background-color:#e5edfb; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+table.pubtables .emptydata {font-size:0.6em; font-weight:normal; text-align:right; vertical-align:bottom; padding:0.35em; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+    
+/*ROWHEADS*/    
+table.pubtables .rowhead0top {
+font-weight:bold;
+text-align:center;
+padding:0.35em;
+vertical-align:top;
+background-color:#e5edfb;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+}
+table.pubtables .rowhead0 {
+font-weight:bold;
+text-align:center;
+vertical-align:top; 
+padding:1em 0.35em 0.35em 0.35em;
+background-color:#e5edfb;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+}    
+    
+table.pubtables .rowhead1top {
+font-weight:bold;
+font-style:italic;
+text-align:left;
+vertical-align:top; 
+background-color:#fcf8e4;
+padding:0.35em;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+    }
+    
+table.pubtables .rowhead1 {
+font-weight: bold;
+font-style:italic;
+text-align: left;
+vertical-align:top; 
+padding:1em 0.35em 0.35em 0.35em;
+background-color:#fcf8e4;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+    }
+    
+table.pubtables .rowhead2top {
+font-weight: normal;
+text-align: left;
+vertical-align:top;
+padding:0.35em;
+background-color:#fcf8e4;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+    }
+table.pubtables .rowhead2 {
+font-weight:normal;
+text-align: left;
+padding:1em 0.35em 0.35em 0.35em;
+vertical-align:top;
+background-color:#fcf8e4;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+    }
+table.pubtables .totaltop {
+font-weight: bold;
+text-align: left; 
+vertical-align:top;
+padding:0.35em; 
+background-color:#e5edfb;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+}
+table.pubtables .total {
+font-weight: bold; 
+text-align: left; 
+padding:1em 0.35em 0.35em 0.35em;
+vertical-align:top;
+background-color:#e5edfb;
+border-bottom:1px solid #ccc; 
+border-right:1px solid #ccc; 
+border-left:1px solid #ccc;
+}
+
+table.pubtables .memohead {
+font-weight:bold;
+text-align:left;
+padding:2em 0 0.35em 0.35em;
+background-color:#f4f4f4;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+    }
+   
+/* ITALICS,BOLD,SMALL CAPS, CENTER */
+table.pubtables .italic {font-style: italic;}
+table.pubtables .bold {font-weight: bold;}
+table.pubtables .smallcaps {font-variant: small-caps;}
+/*NO PADDING, TOP PADDING, STANDARD PADDING, BORDER*/
+table.pubtables .toppadding {padding-top:1.0em;}
+table.pubtables .nopadding {padding:0 0 0 0;}
+table.pubtables .border {border:1px solid #ccc;}
+table.pubtables .noborder {border:none;}
+/* LEFT INDENTS */
+table.pubtables .in1 {padding-left:1.5em;}
+table.pubtables .in2 {padding-left:2.5em;}
+table.pubtables .in3 {padding-left:3.5em;}
+table.pubtables .in4 {padding-left:4.5em;}
+table.pubtables .in5 {padding-left:5.5em;}
+table.pubtables .in6 {padding-left:6.5em;}
+table.pubtables .in7 {padding-left:7.5em;}
+/*VERTICAL ALIGNMENT*/
+table.pubtables .vertop {vertical-align:top;}
+table.pubtables .vermid {vertical-align:middle;}
+table.pubtables .verbtm {vertical-align:bottom;}
+/*HORIZONTAL ALIGNMENT*/
+table.pubtables .horizlft {text-align:left;}
+table.pubtables .horizctr {text-align:center;}
+table.pubtables .horizrgt {text-align:right;}
+/*COLORS-BLUE AND TAN*/
+table.pubtables .lgtblu {background-color:#e5edfb;}
+table.pubtables .lgttan {background-color:#fcf8e4;}
+table.pubtables .memogrey {background-color:#f4f4f4;}
+/*RESET*/
+table.pubtables .med {font-weight:normal; font-style:normal; font-variant:normal;}
+/*--------------------------------------END GENERIC PUBLICATION TABLE STYLES--------------------*/
+
+/*ADDITIONAL STYLES added July 7, 2011*/
+table.pubtables .rowhead3 {
+font-weight:normal;
+font-style:italic;
+text-align: left;
+padding:1em 0.35em 0.35em 0.35em;
+vertical-align:top;
+background-color:#fcf8e4;
+border-right:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc;
+}
+        
+table.pubtables .noheader {font-weight:normal; text-align:left; vertical-align:top; padding:0.35em; border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-left:1px solid #ccc; border-top:1px solid #ccc;}
+table.pubtables .datanoheader {font-weight:normal; text-align:right; vertical-align:bottom; padding:0.35em; border-bottom:1px solid #ccc; border-right:1px solid #ccc; border-top:1px solid #ccc;}
+
+h3.tablehead {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1em; text-align: left; color: #253750;}
+.tablesubhead{font-weight: normal;}
+.tableunit{font-weight: normal; font-size: 0.85em;}
+
+/*-- Added 8/23/12 --*/
+ul.financialStatements {
+    line-height: 20px;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0.5em;
+}
+table.pubtables .stubFinancial {
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    font-weight: normal;
+    padding: 0.35em;
+    text-align: left;
+    vertical-align: middle;
+}
+table.pubtables .in1Financial {
+    padding-left: 1.5em;
+    vertical-align: middle;
+}

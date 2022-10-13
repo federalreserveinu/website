@@ -1,0 +1,278 @@
+@import '/resources/pubtables.css' print; 
+@media print { @import 'https://www.federalreserve.gov/resources/pubtables.css';} 
+
+/*---------------- PRINT PUBLICATIONS/GENERAL LAYOUT STYLES -------------------*/
+
+body {font-family: "Times New Roman", Times, serif; font-size:1em; color: #000000; margin-left: .25em;}
+
+#top{display: none;}
+
+#footer
+{display: none;}
+
+a:link { text-decoration: underline; color: #314732; }
+a:visited { text-decoration: underline; color: #BCA346; }
+
+img{border: 0;}
+
+.clear {
+    clear: both;
+    display: block;
+    height: 1px;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;}
+
+/*----------- PAGE HEADER STYLES FOR ALL PAGES -----------------*/
+
+table#headerTopLinks {display:none;}
+
+#headerTopLinksSearchFormSubmit {display: none;}
+#headerMasthead {display: none;}
+
+/*---------- TOP HORIZONTAL NAVIGATION STYLES FOR ALL PAGES -------------*/
+
+#navMenu {display: none;}
+
+/*------------- ALL HEADLINE STYLES --------------*/
+
+h1.secondary{border-bottom: 1px solid #999999; font-family: "Times New Roman", Times, serif; font-size: 1.6em; padding: 0 0 3px 4px; margin: 0 0 0 5px; font-weight:normal;}
+h1.all{border-bottom: 1px solid #999999; font-family: "Times New Roman", Times, serif; font-size: 1.3em; padding: 10px 0 2px 0px; margin: 0 0 0 0em; font-weight:normal; margin-bottom: .2em;}
+h1.homeFeature{font-family: "Times New Roman", Times, serif; font-size: 1.2em; padding: .3em 0px .3em .3em;  margin: 0 0px 0 0px;     background-image: url(https://www.federalreserve.gov/gifjpg/homeFeatureBack.jpg); background-repeat: repeat-x; font-weight:bold; border-bottom: 0; color: #FFFFFF;}
+h1.stats {font-family: "Times New Roman", Times, serif; font-size: 1.2em; padding: .3em 0px .3em .3em;  margin: 0 0px 0 0px;     background-image: url(https://www.federalreserve.gov/gifjpg/statBack.jpg); background-repeat:repeat-x; font-weight:bold; border-bottom: 0; color: #FFFFFF;}
+
+h2.stats{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding: 5px 0px 3px 0px; margin: 0; font-weight:normal; border-bottom: 1px dashed #999999; margin-right: .7em;}
+h2.pr{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding-left: 5px; margin: 0; font-weight:normal; border-bottom: 1px dashed #999999; margin-right: .7em; margin-bottom: 3px;}
+h2.sitemap{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding: 1.8em 0px 3px 0px; font-weight:normal; border-bottom: 1px dashed #999999; margin-right: .7em; margin-bottom: .5em;}
+h2.whatsnext{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding: 1em 0px 3px 0px; font-weight:normal; border-bottom: 1px dashed #999999; margin-right: .7em; margin-bottom: .5em;}
+h2.border{font-family: "Times New Roman", Times, serif; font-size: 1.1em; padding: 5px 0px 0px 0px; font-weight:normal; border-bottom: 1px dashed #999999; margin-bottom: .3em; margin-top: .5em;}
+
+
+h3.statColumn{font-size: .85em; padding-left: 2em; margin-bottom: 0em;}
+h3.subtitle{font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1em;}
+h3.italic{font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1em; font-style:italic;}
+h3.prTime{font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+
+/*--------------------------------NEW HEADERS ----------------------*/
+.border{border-bottom: 1px solid #999999;}
+.borderdash{border-bottom: 1px dashed #333333; margin-top:1em;}
+.bold{font-weight: bold;}
+.boldnopadding{font-weight: bold; padding-bottom: 0; margin-bottom:0;}
+.italic{font-style: italic;}
+.italicbold{font-style: italic; font-weight: bold;}
+.italicnopadding{padding-bottom: 0; margin-bottom: 0em; font-style:italic;}
+.italicboldnopadding{padding-bottom: 0; margin-bottom: 0; font-style: italic; font-weight:bold;}
+.nopadding{margin: 0; padding: 0;}
+h1{font-family: "Times New Roman", Times, serif; font-size: 1.7em; padding: 10px 0 5px 0px; margin: 0 0 0 0em; font-weight:normal; margin-bottom: .6em; border-bottom: none;}
+h3 {font-size:1.4em; font-weight: normal; font-family: "Times New Roman", Times, serif;}
+h2 {font-family: "Times New Roman", Times, serif; font-size: 1.6em; border: none; font-weight: normal;}
+h4 {font-size:1.3em; font-weight: normal; font-family: "Times New Roman", Times, serif;}
+h5 {margin-bottom:0; font-size:1.2em; font-weight:normal; font-family: "Times New Roman", Times, serif;}
+h6 {margin-bottom:0; font-size:1.1em; font-weight:normal; font-family: "Times New Roman", Times, serif;}
+
+/*------------ Makes the Skip to Content links invisible ---------------*/
+
+.invisible { font-size: 0pt; font-weight: lighter; text-decoration: none; color: white; display: none; }
+.skip { font-size: 0pt; font-weight: lighter; text-decoration: none; color: white; display: none; }
+
+/*-------------------------- ALL PRINT STYLES BELOW ARE FOR SECONDARY PAGES ------------------------------*/
+
+#contentContainer{
+background-color: #FFFFFF;
+background-image:url(https://www.federalreserve.gov/gifjpg/side2.gif);
+background-repeat: repeat-y;}
+
+#leftnav{display:none;}
+
+#content
+{margin-left: 0em;
+background-color:#FFFFFF;
+margin-top: 0;
+padding-top: 0;
+padding-left: 1em;}
+
+/*----- BREADCRUMBS -----*/
+
+#BreadCrumbContainer{display:none;}
+
+#printIcon {display: none;}
+.printIcon a img {display: none;}
+
+/*----- General Content Area -----*/
+
+.generalContentText table{margin-right: 1em;}
+.generalContentText #printThis{margin-top: .5em;}
+.generalContentText a:after{ content: attr(href); }
+
+/*----- Code for making Two Columns within GeneralContentText ----- */
+
+#TwoColumns{}
+
+#leftText{width: 680px;}
+#leftText ul.generalList{list-style: none; margin-left: 1em; margin-top: 1em;}
+#leftText ul.generalList li{padding-bottom: 1em; line-height: 1.3em;}
+#leftText ul.generalList li ul{padding-top: .5em; line-height: 1.3em; list-style: none; margin-left: 1em;}
+#leftText ul.generalList li ul li{padding-bottom: .3em;}
+#leftText ul.generalList2{list-style: none; margin-left: 1em; margin-top: 1em;}
+#leftText ul.generalList2 li{padding-bottom: .3em; line-height: 1.3em;}
+#leftText ul.generalList2 li ul{padding-top: .5em; line-height: 1.3em; list-style: none; margin-left: 1em;}
+#leftText ul.generalList2 li ul li{padding-bottom: .3em;}
+
+/*#rightText{display: none;}*/
+#rightText{font-size: .85em; width: 10em; padding-bottom: .2em; float:right;}
+#rightText h1{font-size: 1em; background-color: #B86813; color:#FFFFFF; padding: .5em; border-bottom: 0; margin-bottom: 0em; font-weight:bold; font-family: Arial, Helvetica, sans-serif; margin-right: 0; width:11em;}
+#rightText ul{color: #993300; background-color: #FCEFE2; margin: 0; padding:0; padding-bottom: .5em; width: 12em; border-bottom: 1px solid #B86813;}
+#rightText li{ list-style: square; color: #B86813; padding-bottom: .3em; margin-left: 2em; padding-top: .3em;}
+#rightText a{color: #B86813;}
+#rightText h1.cat2{background-color:#996666; margin-bottom: 0; width: 11em; border-top: 1px solid #996666; margin-top: .5em;}
+#rightText ul.cat2{background-color:#EFE7E7; margin: 0; width: 12em; border-bottom: 1px solid #996666;}
+#rightText li.cat2{color: #996666; background-color:#EFE7E7; margin: 0; margin-left: 2em;}
+#rightText li.cat2 a{color:#996666;}
+#rightText li.cat2 a:visited{color:#996666;}
+#rightText ul.subNav{background-color:#C6D6DF; margin: 0; width: 12em; border: 1px solid #608AA4;}
+#rightText li.subNav {color:#243540;}
+#rightText li.subNav a{color:#243540;}
+#rightText li.subNav a:visited{color:#243540;}
+#rightText.bios{ margin-top: 2.5em;}
+
+/*- - - - - - - NEW LIST STYLES TO USE FROM MAY 19 2008) - - - - - - */
+/*no bullets, no padding*/
+ul.nobulletsnopadding {list-style: none; margin:0 0 0 0; padding:0 0 1em 0;}
+ul.nobulletsnopadding li {font-weight:normal; padding-bottom:0.25em;}
+
+/*nested lists without bullets*/
+ul.linklist {list-style:none; margin-left:0; padding-left:0;}
+ul.linklist li {font-weight:bold; padding-bottom: .5em;}
+ul.primarylist {list-style:none; margin-left:0; padding-left:0;}
+ul.primarylist li{font-weight: normal;}
+ul.secondarylist {list-style:none; padding-bottom:.5em;}
+ul.secondarylist li {font-weight:normal;}
+ul.tertiarylist {list-style:none; margin-left:1em; padding-bottom:.5em;}
+ul.tertiarylist li {font-weight:normal;}
+
+/*numbered and lettered lists*/
+ol {margin-top:0.75em; margin-bottom:0.75em;}
+ol.letters {list-style:upper-alpha; margin-top:0.75em; margin-bottom:0.75em;}
+ol.lowerroman {list-style:lower-roman; margin-top:0.75em;}
+ol.upperroman {list-style:upper-roman; margin-top:0.75em;}
+ol.notelist {font-size:0.85em;}
+ol.letterslower {list-style:lower-alpha; margin-top:0.75em; margin-bottom:0.75em;}
+/*- - - - - - - END NEW LIST STYLES - - - - - - */
+
+/*- - - - - - - NEW BULLETIN STYLES - - - - - - */
+#leftText3.bull a {color:#760303;}
+#printIconbull {float:right; margin:-0.75em 0 0 0; font-size: 0.85em;}
+#printIconbull a:link, a:visited {color:#314732;}
+.printIconbull a img {float: left; border: 0; margin: 0 2px 0 0; }
+#bullwrap {margin:1.5em 0 0 0; padding:0 0 0 0; height:45px; border-bottom:1px solid #999;}
+.topleft {float:left;}
+.aboutlink {margin:0 0 0 1em; font-weight:bold; }
+.topright{float:right; width:14em; margin:0 0 0 0; padding:0 0 0 0; }
+.clear {clear:both; }
+#highlightnav {background-image:url(); background-position:top left; background-repeat:repeat-x; margin:1em 0; border:1px solid #e0e0e0; height:26px; padding:0.75em 0 0 0.5em; clear:right; color:#760303; background-color:#ededed;}
+#highlightnav a {color:#760303;}
+#rightText.bull {margin-left:1em;}
+#rightText.bull h5 {font-family:"Times New Roman", Times, serif; color:#760303; font-size:1.5em; font-weight:normal; margin-bottom:0;  margin-left:0.5em;}
+#rightText.bull ul {border-top:1px solid #760303; border-bottom:1px solid #760303; margin:0 0 0 0.5em; padding:1em 0; width:159px; list-style:none; background-color:#f5eded; list-style-position:outside;}#rightText.bull li {list-style:none; margin-left:0.5em; }
+#rightText.bull li a {color:#333;}
+#bullbutton {background-image:url(); background-position:top left; background-repeat:repeat-x; height:32px; padding-top:0.75em; text-align:center; margin-left:0.5em; width:159px;}
+#bullbutton a:link,#bullbutton a:visited,#bullbutton a:hover  {color:#fff; text-decoration:none; font-weight:bold;}
+#orderfooter {margin-top:1em; padding-top:0.15em; border-top:1px solid #760303;}
+.orderfooterleft {float:left;}
+.orderfooterright {float:right;}
+
+table.bulletin {font-size:0.85em; margin:1.5em 0;}
+table.bulletin td {padding:0.5em; text-align:center; border-left:1px solid white;}
+table.bulletin th {background-color:#760303; color:white; font-weight:bold; padding:0.25em; border-left:1px solid white; border-top:1px solid white;}
+.subhead {text-align:left; color:#760303; font-weight:bold; font-style:italic;}
+table.bulletin tr.shade {background-color:#f1e8e8;}
+table.bulletin td.column1 {text-align:left;}
+table.bulletin td.indent1 {text-align:left; padding-left:2em;}
+table.bulletin td.indent2 {text-align:left; padding-left:5em;}
+.fntext {color:#333; font-size:0.85em;}
+
+/*---------------------------------------------NEW PUBLICATION PAGE STYLES----------------------------*/
+.header{display:block; width:753px; height:72px; margin:0 0 1em 0; border-bottom:#999 solid 1px;}
+h2.pubpage {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:white; font-weight:500; font-size:1.5em; margin:0.25em 0 0 4.5em; letter-spacing:-0.025em; float:left; padding:1.25em 0 0 0;}
+h2.pubpage2 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:white; font-weight:500; font-size:1.5em; margin:0.25em 0 0 0.5em; letter-spacing:-0.025em; float:left; padding:1.25em 0 0 0;}
+.header #printIcon {margin:3.5em 0.5em 0 0;}
+.header#supervision_manuals{
+        background-image:url(https://www.federalreserve.gov/gifjpg/pub_hd_supervision_manuals.gif);
+        background-attachment:scroll;
+        background-color:transparent;
+        background-position:0em 0em;
+        background-repeat:no-repeat;}
+        
+.header#supervision_manuals{  
+        background-image:url(https://www.federalreserve.gov/pubs/redesign/gifjpg/pub_hd_supervision_manuals.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#reports_to_congress{  
+        background-image:url(https://www.federalreserve.gov/pubs/redesign/gifjpg/pub_hd_reports_to_congress.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#regulatory_information{  
+        background-image:url(https://www.federalreserve.gov/pubs/redesign/gifjpg/pub_hd_regulatory_information.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#feature_publications{  
+        background-image:url(https://www.federalreserve.gov/pubs/redesign/gifjpg/pub_hd_feature_publications.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#economic_research{  
+        background-image:url(https://www.federalreserve.gov/pubs/redesign/gifjpg/pub_hd_economic_research.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#a_to_z{  
+        background-image:url(https://www.federalreserve.gov/pubs/redesign/gifjpg/pub_hd_bk.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#consumer_info{  
+        background-image:url(https://www.federalreserve.gov/pubs/redesign/gifjpg/pub_hd_consumer_info.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#how_to_order{  
+        background-image:url(https://www.federalreserve.gov/pubs/redesign/gifjpg/pub_hd_bk.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.bluelinkwrap a:link {color:#253750;}
+.bluelinkwrap a:visited {color:#253750;}
+.bluelinkwrap p.title {color:#253750; font-family:"Times New Roman", Times, serif; margin:1.5em 0 0 0; padding:0 0 0 0; font-size:1.65em;}
+.bluelinkwrap p.titlefirst {color:#253750; font-family:"Times New Roman", Times, serif; margin:0 0 0 0; padding:0 0 0 0; font-size:1.65em;}
+.bluelinkwrap p.title2 {color:#253750; font-family:"Times New Roman", Times, serif; margin:1em 0 0.25em 0; padding:0 0 0 0; font-size:1.35em;}
+.bluelinkwrap p.spanish {font-style:italic; color:#253750; margin:0.5em 0; padding:0 0 0 0;}
+.orderbox {background-color:#e5edfb; color:#253750; width:188px; float:right; margin:0 0 1em 1em; padding:0 0 0 0; font-size:0.90em; font-family:Arial, Helvetica, sans-serif; font-size:0.75em;}
+.orderbox a:link {color:#253750;}
+.orderbox a:visited {color:#253750;}
+p.puborder {margin:0.5em 0 0 1em; padding:0.5em 0 0.75em 0; border-bottom:1px solid white;}
+.pubbar {margin:0.75em 0 0 0; padding:0.75em 0.75em 0.75em 0.5em; width:350px; background-color:#e5edfb; color:#253750; font-size:0.90em;}
+ul.alpha {list-style:none; margin:0 0 0 0; padding:0 0 1.5em 0;}
+ul.alpha li {float:left; margin:0 1em 0 0; padding:0 0 0 0; font-weight:bold;}
+h1.publetter {color:#253750; margin:1em 0 0 0; padding:0 0 0 0; font-size:2em;}
+.imgheader {margin-top:1em;}
+ 
+/* ---------------------------- PRINT STYLES FOR NEW FR BULLETIN IN C-CLAMP  ------------------------------- */
+#bullleft {margin:0 0 0 0;}
+#bullleft h4.home {color:#253750; margin:1.25em 0 0.5em 0; padding:0 0 0 0; font-size:1em;}
+#bullleft .bar {margin:0.5em 0 0 0; padding:0 0 0 0; width:450px;} 
+#bullleft .bar a:link {color:#253750;}
+#bullleft .bar a:visited {color:#253750;}
+#bullleft .synopsis {margin:0.5em 0 0.15em 0;}
+#bullleft .authors {margin:0.5em 0 0.25em 0;}
+#bullleft a.title {font-weight:bold; color:#253750;}
+.logoleft {float:left; margin:0.5em 1em 0em 0;}
+.logowrapper {font-family:"ITC Bookman Demi", "Palatino Linotype", "Book Antiqua", Palatino, serif; border-bottom:1px solid #999; margin:1em 0 0.75em 0; padding:0 0 0 0;}
+h1.logo {font-size:2.5em; color:#003366;  font-weight:500; margin:0 0 0 0; padding:0 0 0 0; height:45px;}
+h5.insidelist {margin-left:-2.65em; margin-bottom:1em;}
+.logosmall {font-size:0.40em; color:#003366; font-weight:500; margin:-0.5em 0 0 0.15em; padding:0 0 0 0; position:absolute;}
+#bullright {display:none; margin:0 0 1em 2em; padding:0 0 0 0; float:none; font-size:0.85em; width:20em;}
+#bullright h5 {font-family:"Times New Roman", Times, serif; color:#253750; font-size:1.5em; font-weight:normal; margin:1.5em 0 0 0;}
+#bullright ul {border-top:1px solid #253750; border-bottom:1px solid #253750; margin:0 0 0 0; padding:1em 0.75em 0.75em 0.75em; list-style:none; background-color:#e5edfb; list-style-position:outside;}
+#bullright ul li {list-style:none; margin-left:0.5em; margin-bottom:1em;}
+#bullright ul li a:link {color:#253750;}
+#bullright ul li a:visited {color:#253750;}
+.bullbutton {background-color:#253750; margin:0.15em 0 0.15em 0; padding:0.75em; text-align:center;}
+.bullbutton a:link {color:#fff;}
+.bullbutton a:visited {color:#fff;}
+.bullnav {display:none; background-image:url(https://www.federalreserve.gov/publications/gifjpg/nav_background.gif); background-position:top left; background-repeat:repeat-x; 
+margin:0 0 2em 0; border:1px solid #e0e0e0; height:26px; padding:0.5em 0.25em 0.25em 0.5em; background-color:#ededed;}
+
+.bulldd {display:inline; margin:0 0 0 0; padding:0 0 0 0; vertical-align:middle;}
+.bullimage {margin:1em 0 1em 0; padding:0 0 0 0; border-bottom:1px solid #999;}
+.figright {float:none; margin:1em 0;}
+.figleft {float:none; margin:1em 0;}
+.shadedbox {background-color:#e5edfb; margin:1em; font-size:0.85em; padding:1em; border-top:1px solid #253750; border-bottom:1px solid #253750;}
+.fntext {font-size:0.85em;}
+/* ----------------------------END PRINT STYLES FOR NEW FR BULLETIN IN C-CLAMP  ------------------------------- */

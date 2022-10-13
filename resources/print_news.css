@@ -1,0 +1,445 @@
+/*---------------- PRINT NEWS/GENERAL LAYOUT STYLES -------------------*/
+body {font-family: "Times New Roman", Times, serif; font-size:1em; color: #000000; margin-left: .25em;}
+#top{display: none;}
+#footer
+{display: none;}
+a:link { text-decoration: underline; color: #314732; }
+a:visited { text-decoration: underline; color: #BCA346; }
+img{border: 0;}
+.clear {
+    clear: both;
+    display: block;
+    height: 1px;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;}
+
+.exhibitsFlash{display:none;}
+
+/*----------- PAGE HEADER STYLES FOR ALL PAGES -----------------*/
+
+table#headerTopLinks {display:none;}
+#headerTopLinksSearchFormSubmit {display: none;}
+#headerMasthead {display:none;}
+
+/*---------- TOP HORIZONTAL NAVIGATION STYLES FOR ALL PAGES -------------*/
+
+#navMenu {display: none;}
+
+/*------------- ALL HEADLINE STYLES --------------*/
+
+h1 { border-bottom: 1px solid #999999; font-family: "Times New Roman", Times, serif; font-size: 1.6em; padding: 8px 0 5px 4px; margin: 0 5px 0 0; font-weight: normal;}
+h1.secondary{border-bottom: 1px solid #999999; font-family: "Times New Roman", Times, serif; font-size: 1.6em; padding: 0 0 3px 4px; margin: 0 0 0 5px; font-weight:normal;}
+h1.all{border-bottom: 1px solid #999999; font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding: 10px 0 2px 0px; margin: 0 0 0 0em; font-weight:normal; margin-bottom: .2em;}
+h1.homeFeature{font-family: "Times New Roman", Times, serif; font-size: 1.2em; padding: .3em 0px .3em .3em;  margin: 0 0px 0 0px;     background-image: url(https://www.federalreserve.gov/gifjpg/homeFeatureBack.jpg); background-repeat: repeat-x; font-weight:bold; border-bottom: 0; color: #FFFFFF;}
+h1.stats {font-family: "Times New Roman", Times, serif; font-size: 1.2em; padding: .3em 0px .3em .3em;  margin: 0 0px 0 0px;     background-image: url(https://www.federalreserve.gov/gifjpg/statBack.jpg); background-repeat:repeat-x; font-weight:bold; border-bottom: 0; color: #FFFFFF;}
+
+h2{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding: 5px 0px 0px 0px; margin: 0; font-weight:normal;}
+h2.stats{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding: 5px 0px 3px 0px; margin: 0; font-weight:normal; border-bottom: 1px dashed #999999; margin-right: .7em;}
+h2.pr{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding-left: 5px; margin: 0; font-weight:normal; border-bottom: 1px dashed #999999; margin-right: .7em; margin-bottom: 3px;}
+h2.sitemap{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding: 1.8em 0px 3px 0px; font-weight:normal; border-bottom: 1px dashed #999999; margin-right: .7em; margin-bottom: .5em;}
+h2.whatsnext{font-family: "Times New Roman", Times, serif; font-size: 1.4em; padding: 1em 0px 3px 0px; font-weight:normal; border-bottom: 1px dashed #999999; margin-right: .7em; margin-bottom: .5em;}
+h2.border{font-family: "Times New Roman", Times, serif; font-size: 1.2em; padding: 5px 0px 0px 0px; font-weight:normal; border-bottom: 1px dashed #999999; margin-bottom: .3em; margin-top: .5em;}
+
+h3{font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1.2em;}
+h3.statColumn{font-size: .85em; padding-left: 2em; margin-bottom: 0em;}
+h3.subtitle{font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1em;}
+h3.italic{font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1em; font-style:italic;}
+h3.prTime{font-weight: bold; font-family: Arial, Helvetica, sans-serif;}
+
+/*------------ Makes the Skip to Content links invisible ---------------*/
+
+.invisible { font-size: 0pt; font-weight: lighter; text-decoration: none; color: white; display: none; }
+.skip { font-size: 0pt; font-weight: lighter; text-decoration: none; color: white; display: none; }
+
+/*-------------------------- ALL PRINT STYLES BELOW ARE FOR SECONDARY PAGES ------------------------------*/
+
+#contentContainer{
+background-color: #FFFFFF;
+background-image:url(https://www.federalreserve.gov/gifjpg/side2.gif);
+background-repeat: repeat-y;}
+
+#leftnav{display:none;}
+#leftnav{display:none;}
+
+#content
+{margin-left: 0em;
+background-color:#FFFFFF;
+margin-top: 0;
+padding-top: 0;
+padding-left: 1em;}
+
+/*----- BREADCRUMBS -----*/
+
+#BreadCrumbContainer{display:none;}
+
+#printIcon {display: none;}
+.printIcon a img {display: none;}
+
+/*----- General Content Area -----*/
+
+.generalContentText table{margin-right: 1em;}
+.generalContentText #printThis{margin-top: .5em;}
+
+/*----- Code for making Two Columns within GeneralContentText ----- */
+
+#TwoColumns{}
+
+#leftText{width: 645px;}
+#leftText ul.generalList{list-style: none; margin-left: 1em; margin-top: 1em;}
+#leftText ul.generalList li{padding-bottom: 1em; line-height: 1.3em;}
+#leftText ul.generalList li ul{padding-top: .5em; line-height: 1.3em; list-style: none; margin-left: 1em;}
+#leftText ul.generalList li ul li{padding-bottom: .3em;}
+#leftText ul.generalList2{list-style: none; margin-left: 1em; margin-top: 1em;}
+#leftText ul.generalList2 li{padding-bottom: .3em; line-height: 1.3em;}
+#leftText ul.generalList2 li ul{padding-top: .5em; line-height: 1.3em; list-style: none; margin-left: 1em;}
+#leftText ul.generalList2 li ul li{padding-bottom: .3em;}
+
+#rightText{display: none;}
+/*#rightText{font-size: .85em; width: 10em; padding-bottom: .2em; float:right;}
+#rightText h1{font-size: 1em; background-color: #B86813; color:#FFFFFF; padding: .5em; border-bottom: 0; margin-bottom: 0em; font-weight:bold; font-family: Arial, Helvetica, sans-serif; margin-right: 0; width:11em;}
+#rightText ul{color: #993300; background-color: #FCEFE2; margin: 0; padding:0; padding-bottom: .5em; width: 12em; border-bottom: 1px solid #B86813;}
+#rightText li{ list-style: square; color: #B86813; padding-bottom: .3em; margin-left: 2em; padding-top: .3em;}
+#rightText a{color: #B86813;}
+#rightText h1.cat2{background-color:#996666; margin-bottom: 0; width: 11em; border-top: 1px solid #996666; margin-top: .5em;}
+#rightText ul.cat2{background-color:#EFE7E7; margin: 0; width: 12em; border-bottom: 1px solid #996666;}
+#rightText li.cat2{color: #996666; background-color:#EFE7E7; margin: 0; margin-left: 2em;}
+#rightText li.cat2 a{color:#996666;}
+#rightText li.cat2 a:visited{color:#996666;}
+#rightText ul.subNav{background-color:#C6D6DF; margin: 0; width: 12em; border: 1px solid #608AA4;}
+#rightText li.subNav {color:#243540;}
+#rightText li.subNav a{color:#243540;}
+#rightText li.subNav a:visited{color:#243540;}*/
+#rightText.bios{ margin-top: 2.5em;}
+
+/*----- STYLES SPECIFIC TO PRESS RELEASE PRINT OUTS -----*/
+
+#ReleaseBottomLink{display:none;}
+
+#pressRelease h3.prTime{font-family: "Times New Roman", Times, serif; font-size: 1em;}
+#pressRelease h1.all{display: none;}
+#pressRelease #prContentDate{font-style: italic;}
+ 
+/*----- STYLES SPECIFIC TO PR INDEX PAGES -----*/
+#prIndex .generalContentText{width: 650px;}
+
+/*----- OLD INDEX PAGES -----*/
+#indexDateControl{margin-left: .5em; margin-top: 1.5em; margin-bottom: 1.9em;}
+#releaseIndex{list-style: none; padding-left: .5em;}
+#releaseIndex dt{margin-left: 0;}
+#releaseIndex dd{margin-left: 1.5em;}
+
+/*----- NEW INDEX PAGES -----*/
+ul#releaseIndex{list-style: none; padding-left: .5em; margin-left: 0em;}
+ul#releaseIndex li{margin-bottom: 1.5em;}
+ul#releaseIndex li a:link{font-weight: normal;}
+ul#releaseIndex li a:visited{font-weight: normal;}
+
+.indent{padding-left: 1.5em;}
+
+/*----- JOINT PRESS RELEASES -----*/
+#jointPressRelease #Agencies{text-align: right;
+color: #5f705f;
+font-weight: bold;
+border-bottom: 1px solid #999999;
+font-size: .85em;
+padding-top: .5em;
+padding-bottom: .5em;
+padding-right: .5em;
+margin-right: .5em;
+width: 660px;}
+
+#jointPressRelease #timeDateContainer{padding-top: .5em; padding-bottom: 2em;}
+#jointPressRelease .releaseTime{float: left; font-weight: bold;}
+#jointPressRelease .releaseDate{float:right; font-weight: bold;}
+#jointPressRelease #TwoColumns{width: 660px;}
+
+h2.joint{text-align: center; font-size: 1.2em;}
+
+#jointPressRelease #ReleaseBottomLink{font-family:"Times New Roman", Times, serif; font-style: italic;}
+
+/*----- FRFS (FSPC) PRESS RELEASE -----*/
+
+#FRFSreleaseTitle{font-family: "Times New Roman", Times, serif; font-size: 1.4em; /*padding: 10px 0px 2px 0px;*/ margin: 0 0 0 0;}
+#FRFS .TitleText{border-bottom: 1px solid #999999; margin-left: 75px; padding-bottom: 4px; font-size: .9em;}
+#FRFSreleaseTitle img{float: left; margin-right: 10px;}
+#FRFSreleaseSubTitle{padding-top: 2px;}
+#FRFScontact{text-align: right; font-size: .9em; padding-bottom: .5em; width: 660px;}
+
+#printPaperImage{display: none;}
+
+#pressIndex{list-style: none;}
+#pressIndex li.IndexItem{padding-bottom: 1em;}
+
+.timeDateContainer{padding-top: .5em; padding-bottom: .5em;}
+
+#FRFS #leftText{width: 660px;}
+#FRFS #TwoColumns{width: 660px;}
+#FRFS #timeDateContainer{padding-top: .5em; padding-bottom: 2em;}
+#FRFS .releaseTime{float: left; font-weight: bold;}
+#FRFS .releaseDate{float:right; font-weight: bold;}
+
+/*----- STYLE SPECIFIC TO SPEECH PRINT OUTS -----*/
+
+h2.speeches{font-family: "Times New Roman", Times, serif; font-weight: bold; font-size: 1.1em;}
+h2.speechTitle{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: 1.1em; margin: 0;}
+#speech h2.workingTitle{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: 1.3em; margin: 0; font-style:italic; padding:0;}
+
+h3.speechLocation{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: 1em; margin: 0;}
+h3.speechDate{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: .9em; margin: 0; padding-top: .2em;}
+h3.identical{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: 1.1em; margin: 0; padding-top: .2em; font-style: italic;}
+
+.duplicate{font-style: italic; font-weight: bold;}
+ 
+/*----- STYLES SPECIFIC TO TESTIMONY PRINT OUTS -----*/
+
+#testimony h2.title{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: 1.3em; margin: 0; font-style: italic; padding: 0;}
+#testimony h2.testimony{font-family: "Times New Roman", Times, serif; font-weight: bold; font-size: 1.4em; margin:0; padding:0; display:inline-block;}
+
+
+/*----- NEW TESTIMONY INDEX PAGES -----*/
+
+ul#testimonyIndex{list-style: none; padding-left: .5em; margin-left: 0em;}
+ul#testimonyIndex li{margin-bottom: 1em;}
+ul#testimonyIndex li a:link{font-weight: normal;}
+ul#testimonyIndex li a:visited{font-weight: normal;}
+ul#testimonyIndex .speaker{/*font-weight: bold;*/  padding-left: 1.5em; padding-top: .2em;}
+ul#testimonyIndex .title{font-style: italic; padding-left: 1.5em;}
+ul#testimonyIndex .location{padding-left: 1.5em;}
+ul#testimonyIndex .indexDate{/*font-weight: bold;*/} 
+
+/*----- OLD TESTIMONY INDEX PAGES -----*/
+
+#testimonyIndex{list-style: none; padding-left: .5em; margin-left: 0em; font-size: 1.03em;}
+#testimonyIndex dt{margin-left: 0;}
+#testimonyIndex dd{margin-left: 1.5em;}
+
+h3.location{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: 1em; margin: 0; font-weight: bold;}
+h3.date{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: 1.1em; margin: 0; font-weight: bold; padding-top: .2em;}
+
+h2.title{font-family: "Times New Roman", Times, serif; font-weight:bold; font-size: 1.1em; margin: 0; font-weight: bold;}
+
+/*------ STYLES FOR SPEECH ADDENDUM/ATTACHMENT TABLES NEED TO BE REDONE ------*/
+#Kohn101207 UNKNOWN {COLOR: black;}
+#Kohn101207 CAPTION {TEXT-ALIGN: left;}
+#Kohn101207 .tablehead {FONT-WEIGHT: bold; FONT-SIZE: 0.9em; COLOR: #000000; FONT-FAMILY: 'Times New Roman',Times,serif; TEXT-ALIGN: left;}
+#Kohn101207 .tablesubhead {FONT-WEIGHT: bold; FONT-SIZE: 1em; COLOR: #000000; FONT-FAMILY: 'Times New Roman',Times,serif; TEXT-ALIGN: left;}
+#Kohn101207 .tableunit {FONT-WEIGHT: normal; FONT-SIZE: 0.8em; FONT-FAMILY: 'Times New Roman',Times,serif; TEXT-ALIGN: left;}
+#Kohn101207 .fntext {FONT-WEIGHT: normal; FONT-SIZE: 0.8em; FONT-FAMILY: 'Times New Roman',Times,serif;}
+#Kohn101207 th.left {
+    color: #ffffff;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    font-weight: bold;
+    background-color: #425440;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 0.3em;
+    padding-right: 0.3em;}
+#Kohn101207 th.center {
+    color: #ffffff;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    font-weight: bold;
+    background-color: #425440;
+    text-align: center;
+    vertical-align: bottom;}
+#Kohn101207 th.vertcenter {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    font-weight: bold;
+    background-color: #99CCCC;
+    text-align: center;
+    vertical-align: center;}
+#Kohn101207 td.rightjust {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 0.7em;}
+#Kohn101207 td.rightjust2 {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 1.9em;}
+#Kohn101207 td.rightjust3 {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 2.5em;}
+#Kohn101207 td.righttw {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 0.7em;
+    border-top: none;}
+#Kohn101207 td.rightbw {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 0.7em;
+    border-bottom: none;}
+#Kohn101207 th  {
+    color: #ffffff;
+    font-family: 'Times New Roman',Times,serif;
+    font-size: 1em;
+    text-align: center;
+    vertical-align: bottom;
+    background-color:#425440;
+    padding: .3em .3em .3em .3em;}
+#Kohn101207 td.left {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 0.3em;
+    padding-right: 0.3em;}
+#Kohn101207 td.lefttw {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    border-top: none;}
+#Kohn101207 td.leftbw {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    text-align: left;
+    vertical-align: top;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    border-bottom: none;}
+#Kohn101207 td.rightshade {
+    color: #000000;
+    font-family: 'Times New Roman',Times,serif;
+        font-size: 1em;
+    background-color: #D9F0EF;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 2.5em;}
+#Kohn101207 td.buffer {
+    vertical-align: top;
+    padding-bottom: 0.6em;}
+
+/*---RECENT ACTIONS PAGE----*/
+#ddwrapper {padding-top:1em; padding-left:0.75em; margin-right:14em; height:25px; background-color: #FDF1E3;}
+.ddleft {width:165px; float:left;}
+.dropdown {margin-top:-0.45em; float:left;}
+
+
+/*----- STYLES SPECIFIC TO CONFERENCE PAGES -----*/
+#printIcon_conference {display:none;}
+#conference #conference_header { clear: both !important; }
+#conference #conference_header_generic { clear: both !important; }
+#conference #conference_header_generic .seal img { float: left !important; }
+#conference #conference_header_generic div.title { float: left !important; min-height: 75px !important;}
+#conference #conference_header_generic div.title a:link { font-family: Arial, Helvetica, sans-serif !important; font-size: 12px !important;}
+#conference #conference_header_generic div.title a:link h1 { color: #000000 !important; font-size: 1.769em !important; min-height: 75px !important;}
+#conference #conference_header_generic div.title a:link h1 span.deck { font-family: Arial, Helvetica, sans-serif !important; font-size: 12px !important;}
+#conference #conference_header_generic div.title a:visited { font-family: Arial, Helvetica, sans-serif !important; font-size: 12px !important;}
+#conference #conference_header_generic div.title a:visited h1 { color: #000000 !important; font-size: 1.769em !important; min-height: 75px !important;}
+#conference #conference_header_generic div.title a:visited h1 span.deck { font-family: Arial, Helvetica, sans-serif !important; font-size: 12px !important;}
+#conference #conference_header_generic_2 { clear: both !important; }
+#conference #conference_header_generic_2 .seal img { float: left !important; }
+#conference #conference_header_generic_2 div.title { float: left !important; }
+#conference #conference_header_generic_2 div.title a:link { font-family: Arial, Helvetica, sans-serif !important; font-size: 12px !important;}
+#conference #conference_header_generic_2 div.title a:link h1 { color: #000000 !important; font-size: 1.769em !important; min-height: 75px !important;}
+#conference #conference_header_generic_2 div.title a:link h1 span.kicker { font-family: Arial, Helvetica, sans-serif !important; font-size: 11px !important;}
+#conference #conference_header_generic_2 div.title a:link h1 span.deck { font-family: Arial, Helvetica, sans-serif !important; font-size: 11px !important;}
+#conference #conference_header_generic_2 div.title a:visited { font-family: Arial, Helvetica, sans-serif !important; font-size: 12px !important;}
+#conference #conference_header_generic_2 div.title a:visited h1 { color: #000000 !important; font-size: 1.769em !important; min-height: 75px !important;}
+#conference #conference_header_generic_2 div.title a:visited h1 span.kicker { font-family: Arial, Helvetica, sans-serif !important; font-size: 11px !important;}
+#conference #conference_header_generic_2 div.title a:visited h1 span.deck { font-family: Arial, Helvetica, sans-serif !important; font-size: 11px !important;}
+#conference #highlightnav { clear: both; padding-top: 0.5em;}
+#conference .invitation_only { padding: 1em; }
+#conference .invitation_only p { margin: 0 0 0.5em; text-align: center;}
+#conference h2.border_solid { border-top: 1px solid #cccccc; }
+#conference div.groupItem { border: dotted 1px #cccccc; margin: 1em 0; padding: 1em;}
+#conference div.groupItem p.category { font-family: Arial, Helvetica, sans-serif; color: #666666; font-size: 10px; padding: 0; margin: 0; text-transform: uppercase;}
+#conference div.groupItem p.date { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #111111; margin: 0; padding: 0;}
+#conference div.groupItem p.presenter { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #000000; font-weight: bold; margin: 0; padding: 0;}
+#conference div.groupItem h4.title { color: #253750; font-family: Arial, Helvetica, sans-serif; font-size: 13px; margin: 0.1em 0; padding: 0;}
+#conference div.groupItem h4.title a { color: #253750; font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-decoration: underline;}
+#conference div.groupItem p.description { color: #333333; padding: 0; margin: 0;}
+#conference .session { margin: 1em 0; border-bottom: 1px solid #cccccc;}
+#conference .session .time { float: left; }
+#conference .session .time p { font-weight: bold; margin: 0.1em 0 0 0; padding: 0;}
+#conference .session .details { margin-left: 6em; margin-bottom: 0.5em;}
+#conference .session .details p { margin: 0.5em 0; }
+#conference .session .details h3 { border: none; font-size: 1.385em; margin: 0 0 0.1em 0; padding: 0;}
+#conference .session .details div.presentations { border: 1px dotted #cccccc; margin: 1em 0; padding: 1em; font-family: Arial, Helvetica, sans-serif; font-size: 0.85em; text-align: center;}
+#conference .session .details div.presentations ul { margin: 0; padding: 0;}
+#conference .session .details div.presentations ul li { border-left: 1px solid #666666; display: inline; list-style: none; margin: 0; padding: 0 1em 0 1.5em; font-family: Arial, san-serif !important; font-size: 11px;}
+#conference .session .details div.presentations ul li a.audio { background-image: url('https://www.federalreserve.gov/gifjpg/audio.png'); background-repeat: no-repeat; display: inline-block; height: 16px; padding: 0 0 0.1em 1.5em;}
+#conference .session .details div.presentations ul li a.transcript { background-image: url('https://www.federalreserve.gov/gifjpg/transcript.png'); background-repeat: no-repeat; display: inline-block; height: 16px; padding: 0 0 0.1em 2em;}
+#conference .session .details div.presentations ul li a.video_youtube { background-image: url('https://www.federalreserve.gov/gifjpg/youtube.png'); background-repeat: no-repeat; display: inline-block; height: 16px; padding: 0 0 0.1em 2em;}
+#conference .session .details div.presentations ul li.first { border-left: none; }
+#conference ul.panelists { margin: 0 0 0 1.5em; padding: 0 0 0 1em;}
+#conference ul.panelists li { list-style-position: outside; margin: 0; padding: 0 0 0 0.2em;}
+#conference #location_container { display: block; min-height: 200px; clear: both;}
+#conference #map { background-color: #cccccc; border: 1px solid #cccccc; float: left; margin: 0 0.7em 2em 0; width: 188px;}
+#conference #map img { margin: 0 0.5em 0.5em 0; }
+#conference #map img a:link { text-decoration: none; }
+#conference #map img a:visited { text-decoration: none; }
+#conference #map img a:hover { text-decoration: none; }
+#conference #map a:link#download { font-family: Arial, san-serif !important; font-size: 11px !important; padding: 0.5em 0.6em 0.5em 2em;}
+#conference #map p { margin: 0 0 0.7em 0; }
+#conference h3 { font-family: "Times New Roman", Times, serif; font-size: 1.2em !important; font-weight: normal !important;}
+#conference h4 { font-family: "Times New Roman", Times, serif; font-size: 1.2em !important; font-weight: normal !important;}
+#conference #rightSidebar { width: 218px; float: right !important;}
+#conference #rightSidebar #nav_anchor h4 { display: none; }
+#conference #rightSidebar #nav_anchor ul { display: none; }
+#conference #rightSidebar #nav_anchor ul li { display: none; }
+#conference #rightSidebar #nav_anchor ul li a { display: none; }
+#conference #rightSidebar #nav_anchor .nav_anchor_download { font-family: Arial, san-serif !important; font-size: 11px;}
+#conference #rightSidebar .nav_download { font-family: Arial, san-serif !important; font-size: 11px;}
+
+
+
+/*Navigation for Reg Reform*/
+.regreformNav {clear:both; height:36px; border: 1px solid #DDD; background-image: url(https://www.federalreserve.gov/gifjpg/nav_background.gif); background-repeat: repeat-x; /*background-color: #FDF1E3;*/}
+.regreformNav ul{list-style: none; padding: 0; margin: 0;}
+.regreformNav ul li{float:left; padding:10px 10px 10px 10px; }
+.regreformNav ul li img{vertical-align: middle;}
+.regreformNav ul li.selected{font-weight: bold; text-decoration: none;}
+.regreformNav ul li.selected a:link{text-decoration: none;}
+.regreformNav ul li.selected a:visited{text-decoration: none;}
+/*stacked style for reg reform header - uses Rachel's generic conference header above but loses the border*/
+.noborder {border-bottom:0;}
+/* ------------------------GENERIC STYLE FOR ANY PAGE THAT ONLY REQUIRES IMAGE REPLACE - 
+HIDE TEXT BEHIND A BACKGROUND GRAPHIC FOR H1 --- DOESN'T HAVE TO BE IN "CONFERENCE" DIV --------------------------- */
+h1.backimage {background:url(https://www.federalreserve.gov/gifjpg/regreform_header.jpg) no-repeat scroll center top #fff; display: block; height:45px; width:722px;}
+h1.backimage a {display:block; width:100%;}
+h1.backimage a.hideText {color:transparent; text-indent:-1000em;}
+.reformwrapper {margin:0 0 0 0;}
+.reformcol1 {float:left; margin:0 0 0 0; padding:0 0 0 0; width:19em;}
+.reformcol2 {float:left; margin:0 0 0 1em; padding:0 0 0 1em; border-left:1px solid #354834; width:20em;}
+ 
+/* Right Sidebar Stuff */
+
+#stayconnectedrightSidebar.otherFormats {
+   display: none;}
+
+#stayconnectedrightSidebar {
+    display: none;}
+ 
+#regreformrightSidebar .search {padding: 5px 0 0px 0;  border-bottom: 1px solid #a7542c; margin: 0 0 20px 0; width: 210px;}
+#regreformrightSidebar form{background-color: #fef9f3; padding: 0 0 5px 5px; margin: 0;}
+#regreformrightSidebar .search #search input {margin: 10px 0 5px 0; width: 120px; }
+#regreformrightSidebar .search #search input#search {width: 60px; }
+#regreformrightSidebar .search #search select {margin-bottom: 5px; font-size:11px; margin-top: 0px;}
+#regreformrightSidebar .search h3 {margin: 0; padding: 0; font-size: 17px; border-bottom: 1px solid #a7542c;}

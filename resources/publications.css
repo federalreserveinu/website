@@ -1,0 +1,693 @@
+/* ---------------------------- STYLES FOR NEW FR BULLETIN ------------------------------- */
+#leftText3.bull a {color:#760303;}
+
+#printIconbull {float:right; margin:-0.35em 0 0 0; font-size: 0.85em; color:#314732;}
+#printIconbull a:link, a:visited {color:#314732;}
+.printIconbull a img {float: left; border: 0; margin: 0 2px 0 0; color:#314732;}
+
+#highlightnav {background-image:url(https://www.federalreserve.gov/gifjpg/nav_background.gif); background-position:top left; background-repeat:repeat-x; margin:1em 0; border:1px solid #e0e0e0; height:26px; padding:0.75em 0 0 0.5em; clear:right; color:#760303; background-color:#ededed;}
+#highlightnav a {color:#760303;}
+
+#bullwrap {margin:1.5em 0 0 0; padding:0 0 0 0; height:45px; border-bottom:1px solid #999;}
+.topleft {float:left;}
+.aboutlink {margin:0 0 0 1em; font-weight:bold;}
+.topright{float:right; width:14em; margin:0 0 0 0; padding:0 0 0 0; }
+
+#rightText.bull {margin-left:1em;}
+#rightText.bull h5 {font-family:"Times New Roman", Times, serif; color:#760303; font-size:1.5em; font-weight:normal; margin-bottom:0;  margin-left:0.5em;}
+#rightText.bull ul {border-top:1px solid #760303; border-bottom:1px solid #760303; margin:0 0 0 0.5em; padding:1em 0; width:159px; list-style:none; background-color:#f5eded; list-style-position:outside;}#rightText.bull li {list-style:none; margin-left:0.5em; }
+#rightText.bull li a {color:#333;}
+#bullbutton {background-image:url(https://www.federalreserve.gov/gifjpg/btn_background.gif); background-position:top left; background-repeat:repeat-x; height:32px; padding-top:0.75em; text-align:center; margin-left:0.5em; width:159px;}
+#bullbutton a.white {color:#fff; text-decoration:none; font-weight:bold;}
+
+#orderfooter {margin-top:1em; padding-top:0.15em; border-top:1px solid #760303;}
+.orderfooterleft {float:left;}
+.orderfooterright {float:right;}
+
+
+/* ------ TABLES USED THROUGHOUT ALL YEARS-------- */
+
+table.bulletin {font-size:0.85em; margin:1.5em 0;}
+table.bulletin td {padding:0.25em; text-align:center; border-left:1px solid white;}
+#leftText3.bull a.revlink {color:white;}
+table.bulletin tr.bold {font-weight:bold;}
+table.bulletin td.column1 {text-align:left;}
+table.bulletin td.indent1 {text-align:left; padding-left:1em;}
+table.bulletin td.indent2 {text-align:left; padding-left:2em;}
+table.bulletin td.indent3 {text-align:left; padding-left:3em;}
+table.bulletin td.indent4 {text-align:left; padding-left:4em;}
+table.bulletin td.indent5 {text-align:left; padding-left:5em;}
+.fntext {color:#333; font-size:0.85em; margin:1.5em;}
+#figright {float:right; margin-left: 0.5em; margin-bottom: 0.5em;}
+#figleft {float:left; margin-right: 0.5em; margin-bottom: 0.5em;}
+#figright2 {float:right; margin-left:1em; margin-bottom: 0.5em; width:300px;}
+p.fntext2 {color:#333; font-size:0.85em; margin:0 0 0 0; padding:0 0 0 0;}
+.clearright {clear:right;}
+.clearleft {clear:left;}
+
+/* ------ 2008 SPECIFIC STYLES-------- */
+.subhead08 {text-align:left; color:#760303; font-weight:bold; font-style:italic; margin-bottom:0;}
+table.bulletin th.red {background-color:#760303; color:white;  padding:0.25em; border-left:1px solid white; border-top:1px solid white;}
+table.bulletin tr.shade08 {background-color:#f1e8e8;}
+table.bulletin td.tableunit08 {text-align:left; padding:0.5em; color:#760303; font-weight:bold;}
+#inlinebox08 {background-color:#F7F2F7; margin: 1em auto; font-size: .85em; padding: 0.5em 1em; width: 90%; border: 1px solid #AE5DAE;}
+
+/* ---------------------------- END STYLES FOR NEW FR BULLETIN ------------------------------- */
+/*---------------------------------------------NEW PUBLICATION PAGE STYLES----------------------------*/
+.header{display:block; width:753px; height:72px; margin:0 0 1em 0; border-bottom:#999 solid 1px;}
+h2.pubpage {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:white; font-weight:500; font-size:2em; 
+margin:0 0 0 4.5em; letter-spacing:-0.025em; float:left; padding:1.25em 0 0 0;}
+h2.pubpage2 {font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:white; font-weight:500; font-size:2em; 
+margin:0 0 0 0.5em; letter-spacing:-0.025em; float:left; padding:1.25em 0 0 0;}
+.header #printIcon {margin:3.5em 0.5em 0 0;}
+.header#supervision_manuals{
+        background-image:url(https://www.federalreserve.gov/gifjpg/pub_hd_supervision_manuals.gif);
+        background-attachment:scroll;
+        background-color:transparent;
+        background-position:0em 0em;
+        background-repeat:no-repeat;}
+        
+.header#supervision_manuals{  
+        background-image:url(https://www.federalreserve.gov/pubs/gifjpg/pub_hd_supervision_manuals.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#reports_to_congress{  
+        background-image:url(https://www.federalreserve.gov/pubs/gifjpg/pub_hd_reports_to_congress.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#regulatory_information{  
+        background-image:url(https://www.federalreserve.gov/pubs/gifjpg/pub_hd_regulatory_information.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#feature_publications{  
+        background-image:url(https://www.federalreserve.gov/pubs/gifjpg/pub_hd_feature_publications.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#economic_research{  
+        background-image:url(https://www.federalreserve.gov/pubs/gifjpg/pub_hd_economic_research.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#a_to_z{  
+        background-image:url(https://www.federalreserve.gov/pubs/gifjpg/pub_hd_bk.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#consumer_info{  
+        background-image:url(https://www.federalreserve.gov/pubs/gifjpg/pub_hd_consumer_info.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.header#how_to_order{  
+        background-image:url(https://www.federalreserve.gov/pubs/gifjpg/pub_hd_bk.gif);
+        background-attachment:scroll; background-color:transparent; background-position:0em 0em; background-repeat:no-repeat;}
+.bluelinkwrap a:link {color:#253750;}
+.bluelinkwrap a:visited {color:#253750;}
+.bluelinkwrap p.title {color:#253750; font-family:"Times New Roman", Times, serif; margin:1.5em 0 0 0; padding:0 0 0 0; font-size:1.65em;}
+.bluelinkwrap p.titlefirst {color:#253750; font-family:"Times New Roman", Times, serif; margin:0 0 0 0; padding:0 0 0 0; font-size:1.65em;}
+.bluelinkwrap p.title2 {color:#253750; font-family:"Times New Roman", Times, serif; margin:1em 0 0.25em 0; padding:0 0 0 0; font-size:1.35em;}
+.bluelinkwrap p.spanish {font-style:italic; color:#253750; margin:0.5em 0; padding:0 0 0 0;}
+.orderbox {background-color:#e5edfb; color:#253750; width:188px; float:right; margin:0 0 1em 1em; padding:0 0 0 0; font-size:0.90em;}
+.orderbox a:link {color:#253750;}
+.orderbox a:visited {color:#253750;}
+p.puborder {margin:0.5em 0 0 1em; padding:0.5em 0 0.75em 0; border-bottom:1px solid white;}
+.pubbar {margin:0.75em 0 0 0; padding:0.75em 0.75em 0.75em 0.5em; width:520px; background-color:#e5edfb; color:#253750; font-size:0.90em;}
+ul.alpha {list-style:none; margin:0 0 0 0; padding:0 0 1.5em 0;}
+ul.alpha li {float:left; margin:0 1em 0 0; padding:0 0 0 0; font-weight:bold;}
+h1.publetter {color:#253750; margin:1em 0 0 0; padding:0 0 0 0; font-size:2em;}
+.imgheader {margin-top:1em;}
+
+/* ---------------------------- STYLES FOR NEW FR BULLETIN ------------------------------- */
+#bullleft {margin:0 0 0 0;}
+#bullleft h4.home {color:#253750; margin:1.25em 0 0.5em 0; padding:0 0 0 0; font-size:1.35em;}
+#bullleft .bar {margin:0.5em 0 0 0; padding:0 0 0 0; width:450px;} 
+#bullleft .bar a:link {color:#253750;}
+#bullleft .bar a:visited {color:#253750;}
+#bullleft .synopsis {margin:0.5em 0 0.15em 0;}
+#bullleft .authors {margin:0.5em 0 0.25em 0;}
+#bullleft a.title {font-weight:bold; color:#253750;}
+.logoleft {float:left; margin:0.5em 1em 0em 0;}
+.logowrapper {font-family:"ITC Bookman Demi", "Palatino Linotype", "Book Antiqua", Palatino, serif; border-bottom:1px solid #999; margin:0 0 0.75em 0; padding:0 0 0 0; width:100%;}
+h1.logo {font-size:3.5em; color:#003366;  font-weight:500; margin:0 0 0 0; padding:0 0 0 0; height:45px;}
+h5.insidelist {margin-left:-2.65em; margin-bottom:1em;}
+.logosmall {font-size:0.40em; color:#003366; font-weight:500; margin:-0.5em 0 0 0.15em; padding:0 0 0 0; position:absolute;}
+#bullright {margin:-2.5em 0 1em 2em; padding:0 0 0 0; float:right; font-size:0.85em; width:20em;}
+#bullright h5 {font-family:"Times New Roman", Times, serif; color:#253750; font-size:1.5em; font-weight:normal; margin:1.5em 0 0 0;}
+#bullright ul {border-top:1px solid #253750; border-bottom:1px solid #253750; margin:0 0 0 0; padding:1em 0.75em 0.75em 0.75em; list-style:none; background-color:#e5edfb; list-style-position:outside;}
+#bullright ul li {list-style:none; margin-left:0.5em; margin-bottom:1em;}
+#bullright ul li a:link {color:#253750;}
+#bullright ul li a:visited {color:#253750;}
+.bullbutton {background-color:#253750; margin:0.15em 0 0.15em 0; padding:0.75em; text-align:center;}
+.bullbutton a:link {color:#fff;}
+.bullbutton a:visited {color:#fff;}
+
+.bullnav {background-image:url(https://www.federalreserve.gov/gifjpg/nav_background.gif); background-position:top left; background-repeat:repeat-x; 
+margin:0 0 2em 0; border:1px solid #e0e0e0; height:26px; padding:0.5em 0.25em 0.25em 0.5em; background-color:#ededed;}
+.bulldd {display:inline; margin:0 0 0 0; padding:0 0 0 0; vertical-align:middle;}
+.bullimage {margin:0 0 1em 0; width:100%; padding:0 0 0 0; border-bottom:1px solid #999;}
+.figright {float:right; margin-left:1em; margin-bottom:1em; }
+.figleft {float:left; margin-right:1em; margin-bottom:1em; }
+.shadedbox {background-color:#e5edfb; margin:1em; font-size: .85em; padding:1em; border-top:1px solid #253750; border-bottom:1px solid #253750;}
+.fntext {font-size:0.85em; margin:0 0 1em 0; padding:0 0 0 0;}
+/* ---------------------------- END STYLES FOR NEW FR BULLETIN ------------------------------- */
+
+/* ------ styles used for right navigation box for Risk Retention Report to Congress-------- */
+#risk_retention #container #bullright .contents {
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #253750;
+    border-bottom-color: #253750;
+}
+#risk_retention #container #bullright ul {
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+}
+/* ------ end styles used for right navigation box for Risk Retention Report to Congress-------- */
+ 
+/*FOOTNOTES "FNTEXT" FOR PUBLICATIONS - ALTERED BY WKL FEBRUARY 24, 2011*/
+.fntext {color:#333; font-size:0.85em; margin:1em 0 1em 0; padding:0 0 0 0;}
+.fntext .fnhead {font-variant:small-caps;}
+.fntext2 {color:#333; font-size:0.85em; margin:0 0 0 0; padding:0 0 0 0;}
+ 
+.foiaThirdHeader{padding:0; margin:0;}
+
+/* ---------------------------- STYLES FOR NEW OFFICIAL STAFF PAGE ------------------------------- */
+#navlistcolleft {
+    line-height: 1.4em;
+    margin-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: normal;
+    margin-top: .5em;
+    margin-bottom: 1.2em;
+    float: left;
+    width: 360px;
+}
+#navlistcolright {
+    line-height: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: normal;
+    margin-top: .5em;
+    margin-bottom: 1.2em;
+    padding-bottom: 2em;
+    float: left;
+}
+ul.boardmembers {list-style-type:none;}
+
+
+#navwrappercolStyle {height:70px; border: 1px solid #DDD; background-image: url(https://www.federalreserve.gov/gifjpg/nav_background.gif); background-position:bottom; background-repeat: repeat-x;}
+#navleftcolStyle {float:left; padding:10px 10px 10px 18px; width:15em;}
+#navleftcol2Style {float:left; padding:10px 10px 10px 10px; width:15em; margin-left:11.5em;}
+/* ---------------------------- END STYLES FOR NEW OFFICIAL STAFF PAGE ------------------------------- */
+
+/* ---------------------------- STYLES FOR FOIA ------------------------------- */
+ul.squarebullets{
+    list-style-image:url(https://www.federalreserve.gov/gifjpg/bullet_bl.gif);
+}
+
+#navwrapperSilvercol {
+    height: 85px;
+}
+
+/*-----------------------------Form Top Nav----------------------------------*/
+ #foiaTopNav ul{
+list-style:none;
+float:left;
+margin:0;
+padding:0 8em 0em 1em;
+ }
+ 
+.proposedComments li {
+    display: block;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding-bottom: 0.4em;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0.4em;
+}
+#foiaTopNav {
+    height:80px;
+    border: 1px solid #DDD;
+    background-image: url(https://www.federalreserve.gov/gifjpg/nav_background.gif);
+    background-position:bottom;
+    background-repeat: repeat-x;
+    padding:10px 10px 0 10px;
+}
+#foiaTopNav #column1 {
+    float:left;
+    width:13em;
+}
+#foiaTopNav #column2 {
+    float:left;
+    width:15em;
+    margin-left:4em;
+}
+#foiaTopNav #column3 {
+    float:left;
+    width:15em;
+    margin-left:2em;
+}
+.contentNav {float: left; border: 1px solid #DDD; background-image: url(https://www.federalreserve.gov/gifjpg/nav_background.gif); background-repeat: repeat-x; background-color: #fff; margin-bottom:1em; background-position: bottom; width: 100%;}
+.contentNav:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.contentNav ul{list-style: none; padding: 0; margin: 0;}
+.contentNav ul li{float:left; padding: 8px 7px 8px 7px; }
+.contentNav ul li img{vertical-align: middle;}
+.contentNav ul li.selected{font-weight: bold; text-decoration: none;}
+.contentNav ul li.selected a:link{text-decoration: none;}
+.contentNav ul li.selected a:visited{text-decoration: none;}
+.contentNav ul.column{list-style: none; margin: 0; padding: 5px; float: left; width: 28%;}
+.contentNav ul.column li {padding: 3px; float: none;}
+
+#navwrapperregreform {
+    height:250px;
+    border: 1px solid #DDD;
+    background-image: url(https://www.federalreserve.gov/gifjpg/nav_background.gif);
+    background-position:bottom;
+    background-repeat: repeat-x;
+    padding:10px 10px 0 10px;
+}
+#navleftregreform {
+    float:left;
+   width:13em;
+}
+#navleft2regreform {
+    float:left;
+    width:15em;
+    margin-left:4em;
+}
+#navleft3regreform {
+    float:left;
+    width:15em;
+    margin-left:2em;
+}
+/*Used to style the proposed regulations teaser*/
+.cont_interactive.teaser {
+    font: normal 12px/normal Arial, Helvetica, sans-serif;
+    float: left;
+    width: 750px;
+    border-bottom: 1px dotted #000;
+    padding-bottom: 5px;
+    margin-bottom:25px;
+}
+.cont_interactive.teaser h4 {
+    font: normal 14px Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:10px 0;
+}
+.cont_interactive.teaser p {
+    padding:0 0 10px 0;
+    margin:0;
+}
+.cont_interactive.teaser a.button {
+    text-decoration: none;
+    display: block;
+    background: #99ADC2 url(https://www.federalreserve.gov/resources/images/btns_03.gif) repeat-x;
+    border: 1px solid #003366;
+    float: left;
+    padding: 4px;
+    margin-right: 5px;
+    color: #fff;
+}
+#foiaContent a.button {
+    text-decoration: none;
+    display: block;
+    background: #99ADC2 url(https://www.federalreserve.gov/resources/images/btns_03.gif) repeat-x;
+    border: 1px solid #003366;
+    float: left;
+    padding: 3px 15px 3px 15px;
+    margin-right: 5px;
+    color: #fff;
+}
+a.button  h4.df_Hl {
+    padding-bottom: 0;
+    margin-bottom:0;
+}
+#foiaContent h2.title {
+    color: #253750;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.65em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /*margin-top: 1em;*/
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+h2.foiaTitle{
+    color: #253750;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.65em;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    /*margin-top: 1em;*/
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+
+.proposedCommetnts li{
+    list-style:none;
+    display:block;
+    padding:.4em 0 .4em 0;
+}
+.paginationContainer, .proposedCommetnts{
+    padding:0;
+}
+.proposedCommetnts li h2.title{
+    margin-top:0;
+}
+
+.paginationContainer li
+{
+    list-style:none;
+    display:inline;
+    padding:0;
+}
+/*Annual Report Style*/
+/*--------------------Headings-------------------------------------*/
+#foiaContent h3{
+    font-size:1.3em;
+    font-family:"Times New Roman", Times, serif;
+    font-weight:bold;
+}
+
+/*---------------------Lists---------------------------------*/
+#foiaContent ol.alphabet{
+    list-style-type:lower-alpha;
+}
+#foiaContent ol.roman{
+    list-style-type:lower-roman;
+}
+#foiaContent li{
+    margin-bottom:1em;
+}
+/*-------------------- Annual Report Tables------------------------ */
+
+.annualReportTable { border-collapse:collapse; font-family:Verdana, Geneva, sans-serif; font-size:12px; text-align:center; width:100%; margin-bottom:1em; }
+.annualReportTable th { color:#253750; font-size:11px; font-weight:normal; border-top: 2px solid #253750; border-right: 1px solid #ccc; border-bottom: 1px solid #253750; border-left: 1px solid #ccc; background-color:#E5EDFB; }
+.annualReportTable th#test { background:#e5edfb none repeat scroll 0 0; color:#253750; font-size:11px; font-weight:normal; }
+.annualReportTable th#groupTableTitle { background:#cfd6e2 none repeat scroll 0 0; border-bottom:1px solid #253750; border-right:1px solid #253750; border-left:1px solid #253750; border-top:4px solid #253750; color:#253750; font-size:11px; font-weight:normal; padding:3px 0 3px 0; text-align:center; }
+.annualReportTable td { background:#fff none repeat scroll 0 0; border:1px solid #ccc; color:#000; padding:.25em; vertical-align:top; }
+#foiaContent foiaContent #box-table-a { border-collapse:collapse; font-family:Verdana, Geneva, sans-serif; font-size:12px; text-align:left; width:65em; }
+#foiaContent foiaContent #box-table-a th { -moz-background-clip:border; -moz-background-inline-policy:continuous; -moz-background-origin:padding; background:#e5edfb none repeat scroll 0 0; border-bottom:1px solid #253750; border-top:4px solid #253750; color:#253750; font-size:11px; font-weight:normal; padding:3px 0 3px 0; }
+#foiaContent #box-table-a th#test { -moz-background-clip:border; -moz-background-inline-policy:continuous; -moz-background-origin:padding; background:#e5edfb none repeat scroll 0 0; border-bottom:1px solid #253750; border-top:0px solid #253750; color:#253750; font-size:11px; font-weight:normal; padding:3px 0 3px 0; }
+#box-table-a th#groupTableTitle { -moz-background-clip:border; -moz-background-inline-policy:continuous; -moz-background-origin:padding; background:#cfd6e2 none repeat scroll 0 0; border-bottom:1px solid #253750; border-right:1px solid #253750; border-left:1px solid #253750; border-top:4px solid #253750; color:#253750; font-size:11px; font-weight:normal; padding:3px 0 3px 0; text-align:center; }
+#box-table-a td { -moz-background-clip:border; -moz-background-inline-policy:continuous; -moz-background-origin:padding; background:#fff none repeat scroll 0 0; border-bottom:1px solid #FFFFFF; border-top:1px solid transparent; color:#666699; padding:0; }
+
+
+/* Box A End */
+
+.cont_interactive.teaser a.button_v2 { text-decoration: none; display: block; background: #99ADC2 url(https://www.federalreserve.gov/resources/images/btns_03.gif) repeat-x; border: 1px solid #003366; float: left; padding: 2px 7px 2px 6px; margin-right: 5px; color: #fff; }
+a.button_v2 { text-decoration: none; display: block; background: #99ADC2 url(https://www.federalreserve.gov/resources/images/btns_03.gif) repeat-x; border: 1px solid #003366; float: left; padding: 3px 15px 3px 15px; margin-right: 5px; color: #fff; }
+a.button_v2 h4.df_Hl { padding-bottom: 0; margin-bottom:0; }
+.foia_centeredText { display:block; float:left; padding:3px 4px 0px 0; font-size:12px; font-weight:bold; }
+.tableOfContents { display:block; border:#253750 dashed 1px; list-style:none; margin:0 0 1em 0; padding:.5em; }
+.tableOfContentsMain{display:block; list-style:none; margin:0 0 1em 0; padding:.5em; }
+#foiaContent h3.toc { padding-bottom:0; margin-bottom:0; }
+
+/*Annual Report Landing Page Styles*/
+
+ul.anualReportCont { list-style:none; }
+.anualReportCont { border-top: 3px solid #253750; border-right: 0px solid #253750; border-bottom: 3px solid #253750; border-left: 0px solid #253750; width: 20em; list-style: none; padding:0; margin:0 0 0 0em; }
+.anualReportCont .current { background: #EAEAEA; padding-top: 0.5em; padding-bottom: 0.5em; }
+.anualReportCont li { padding-top: 0.5em; padding-bottom: 0.5em; }
+dl.spacing dd { margin-bottom:.75em; }
+ol.nomargin, ol.nomargin li { padding-left:.5em; margin-left:.5em; }
+#foiaContent .floatRight { float:right; width:18em; padding:0 0 .5em .5em; margin-left:1em }
+.linkBox { list-style:none; border-top: 1px solid #253750; border-bottom: 1px solid #253750; border-right-width: 0px; border-left-width: 0px; border-right-style: none; border-left-style: none; margin:0 0 1em 0; padding:0 0 0 .5em; background-color:#e9ebed }
+.linkBox.colorNone { list-style:none; border-top: 1px solid #253750; border-bottom: 1px solid #253750; border-right-width: 0px; border-left-width: 0px; border-right-style: none; border-left-style: none; margin:0 0 1em 0; padding:0 0 0 .5em; background-color:#fff; }
+.linkBox li ul{list-style:none;}
+.linkBox li { margin:0.2em 0 0.2em 0; padding:0.2em 0 0.2em 0; }
+.floatRight h4 { font-size: 16px; margin-bottom: 0; margin-left: 0; margin-right: 0; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; }
+.nopaddingMargin { padding-top:-1em; margin:-1em; }
+
+/* FOIA ---------- Budget Styles -- Created by MJK on 5-11-11 / Updated by MJK on 5-11-11 */ 
+
+/* Document Info */
+ul.documentInfo { display:block; width:34em; list-style:none; margin:0; padding:0; float:left; }
+ul.documentInfo li span { display:block; float:left; }
+ul.documentInfo li { float:left; display: block; padding-bottom:1em; margin:0; }
+ul.documentInfo li span.title { width:8em; }
+ul.documentInfo li span.information { width:26em; }
+
+/* Right Box Jump Mark Styles */
+
+ul.jumpMark_anchorBox { display: block; float:right; margin:0 0 .5em .5em; padding:0; width:22em; background-color:#E5EDFB; border-bottom:#253750 solid 1px; list-style:none; }
+ul.jumpMark_anchorBox li { margin:0; padding:0.5em; }
+ul.jumpMark_anchorBox li.toc_header { padding:0; }
+ul.jumpMark_anchorBox li h2 { margin:0; padding:0; border-bottom:#253750 solid 1px; background-color:#fff; }
+#foiaContent h4 { margin:0; padding:0; font-weight:bold; }
+.subconContainer ul { list-style:none; padding:.5em; margin:0; }
+.subconContainer ul li { list-style:none; padding:0; margin:0; }
+.subconContainer { width:15em; float:right; background-color: #FEF9F3; border-bottom-color: #253750; border-bottom-style: solid; border-bottom-width: 1px; border-top-color: #253750; border-top-style: solid; border-top-width: 1px; color: #253750; display: block; list-style-image: none; list-style-position: outside; list-style-type: none; margin-bottom: 1em; margin-left: 1em; margin-right: 0; margin-top: 0; padding-bottom: 0.5em; padding-left: 0.5em; padding-right: 0.5em; padding-top: 0.5em; text-align: right; }
+
+/*Standard Archive box -- Table Inspired*/
+
+div.archive {padding-bottom: 0.5em; width:auto; display: block; border: .1em solid #CCC;}
+.archive ul, .archive h3 {margin: 0px; padding: 0px; list-style: none; font: normal 10pt Arial, Helvetica, sans-serif;}
+.archive .hl_archive {width:150px; padding: .1em 0 .1em .5em; margin-bottom:0.5em; background: #253750; color: #FFF;}
+.archive li {padding-bottom: .4em; padding-right:0.569em; padding-left:0.4em; border-right: .1em solid #CCC; display: inline;}
+.archive li.borderClear{border-right: 0 none;}
+
+/*Dropdown Container styles*/
+.dropdownContainer{padding-bottom:2em;}
+.dropdownContainer h3{font-weight:bold; padding:0; margin:0;}
+ /* ---------------------------- END STYLES FOR FOIA ------------------------------- */
+ 
+/*PIV credentials*/
+#pivCredentials .employee {
+    background-color: #99CCFF;
+}
+#pivCredentials .contractor {
+    background-color: #66CC66;
+}
+#pivCredentials .other {
+    background-color: #FFFF99;
+}
+#pivCredentials th {
+    font-weight: normal;
+}
+#pivCredentials .style1 {background-color: #99CCFF; font-style: italic; }
+
+
+/* ---------------------------- NEW ANNUAL REPORT STYLES ------------------------------- */
+#contentNoNavigation{padding:2em;}
+#textArea{}
+#textArea .1column{width:58em;display:block;}
+#textArea .2column{}
+/* Really Generic */
+.floatRight {float:right;}
+.floatLeft {float:left;}
+/* Header stuff */
+#printIcon_header_generic { background-color: #FFFFFF; font-size: 0.85em; left: 920px; margin: 0; opacity: 0.8; padding: 0.5em; position: absolute;}
+#header_generic, #header_generic_2{ border-bottom: 1px solid #CCCCCC; display: block; margin: 0; min-height: 75px; padding: 0; width: 740px;position:relative;}
+#header_generic div.title, #header_generic_2 div.title {float: left; margin: 0.75em 0.5em;}
+#header_generic .seal img, #header_generic_2 .seal img {display: block; float: left;height: 75px;}
+#header_generic div.title a:visited a:hover, #header_generic_2 div.title a:visited a:hover {color: #000000;cursor: pointer; text-decoration: none;}
+#header_generic div.title h1, #header_generic_2 div.title h1 { color: #000000; font-size:1.769em; line-height: 1; margin: 0; min-height: 75px; padding: 0; text-shadow: 0.1em 0.1em 0.1em #999999;}
+#header_generic div.title h1 span.deck { font-family: Arial,Helvetica,sans-serif; margin: 0; padding: 0; text-shadow: none; font-size: 12px;}
+#header_generic_2 div.title h1 span.kicker { font-family: Arial,Helvetica,sans-serif; margin: 0; padding: 0; text-shadow: none; font-size: 11px;}
+#header_generic_2 div.title h1 span.deck { font-family: Arial,Helvetica,sans-serif; margin: 0; padding: 0; text-shadow: none;
+    font-size: 11px;}
+/* =Sub Navigation (Gray bar) */
+#subNav {position:relative;
+    float:left;
+    width:733px;
+    background-image:url(https://www.federalreserve.gov/gifjpg/navigation_bg.jpg);
+    background-repeat:repeat-x;
+    border: solid 1px #e0e0e0;
+    height: 53px;
+    z-index: 0;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top:15px;}
+    
+#subNavNoNavigation{
+    padding:0; background-image:url(https://www.federalreserve.gov/gifjpg/navigation_bg.jpg);
+/*position:relative;*/display:block;
+    float:left;
+    background-repeat:repeat-x;
+    border: solid 1px #e0e0e0;
+    height: 53px;
+    z-index: 0;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top:15px;}
+    
+.sequential {    width:733px;}
+.sequential .sequentialLeft {width:170px; margin:5px 0 0 -15px;}
+.sequential .sequentialRight {width:170px; margin:5px 15px 0 0;}
+.sequential .sequentialContent {width:353px; text-align: center;}
+.sequentialLeft, .sequentialContent, .sequentialRight { display: inline; float: left; margin-left: 10px; margin-right: 10px;}
+.alpha {margin-left: 0;}
+.omega {margin-right: 0;}
+.sequentialLeft a#previousButton{background:transparent url(https://www.federalreserve.gov/gifjpg/previousButton.png) no-repeat scroll 0 -39px; width:220px; height:38px; display:block; text-decoration:none; cursor:pointer;}
+.sequentialLeft a#previousButton:hover {background:transparent url(https://www.federalreserve.gov/gifjpg/previousButton.png) no-repeat scroll 0 0;}
+.sequentialRight a#nextButton{background:transparent url(https://www.federalreserve.gov/gifjpg/nextButton.png) no-repeat scroll 190px -39px; width:220px; height:38px; display:block; text-decoration:none; cursor:pointer;}
+.sequentialRight a#nextButton:hover {background:transparent url(https://www.federalreserve.gov/gifjpg/nextButton.png) no-repeat scroll 190px 0;}
+.sequentialContent a#tableOfContents{ background:transparent url(https://www.federalreserve.gov/gifjpg/tocButton.png) no-repeat scroll 50px -29px; display:block; text-decoration:none; cursor:pointer; width:250px; height: 29px; text-align:center; margin:auto; margin-top:-10px; text-decoration:none; color:#333;}
+.sequentialContent a#tableOfContents:hover{ background:transparent url(https://www.federalreserve.gov/gifjpg/tocButton.png) no-repeat scroll 50px 0; display:block; text-decoration:none; cursor:pointer; width:250px; height: 29px; text-align:center; margin:auto; margin-top:-10px; color:#fff;}
+.sequential span.text{ font-family: Arial,Helvetica,sans-serif; display: block;}
+.sequential span.text#next{ float:right; margin-right:40px;}
+.sequential span.text#previous{ margin-left:40px;}
+.sequential span.text#tableOfContentsText{ font-size:11px; padding-top:8px;}
+.sequential span.text#pageTitleText{ font-size:14px; margin:auto; margin-top:5px;}
+.sequential span.text span.smallText{color:#666; font-style:italic; font-size:10px;}
+.sequential span.text#pageTitleText span.smallText{color:#000; font-style:normal; font-size:10px;}
+.sequential span.text span.headlineText{color:#000; font-weight:bold; font-size:10px;}
+
+/*span.page { font-family: Arial,Helvetica,sans-serif; text-align:center; font-size:14px;}
+/* =Sections of an article that make up a "Page" */
+.section {}
+.section h2 {/*font-size:20px;*/ font-size:1.8em;}
+.section h3 {/*font-size:18px;*/ font-size:1.6em;}
+.section h4  { /*font-size:16px;*/ font-size:1.4em;
+/*    font-family: "Times New Roman",Times,serif;
+    font-size: 1.4em;
+    font-weight: normal;*/
+}
+.section h5 { font-family: "Times New Roman",Times,serif; font-size: 1.3em; font-weight: normal;}
+/* =Jump Link Boxes */
+.jumpArea {}
+.jumpArea.jumpPage{width: 100%; margin-top: -15px;}
+.jumpArea.jumpPage .jumpBox ul{width: 350px;}
+.jumpArea.jumpSection{float:right; width: 215px; padding:0 0 0 15px; margin-top: -2.8em;}  /* Vertical Treatment */
+h4.jumpHeader {font-size:14px;margin:0; background-color:white;}
+.jumpBox {background-color: #EAF4FB; border-bottom: 1px solid #253750; border-top: 1px solid #253750;margin:0; position:relative; float:left; width:100%; margin-bottom:15px;}
+.jumpBox ul{list-style:none; margin: 0; padding: 0.75em;}
+.jumpBox ul li{margin: 0.75em;}
+.jumpBox ul li ul{list-style:none; margin: 0; padding: 0.5em;}
+.jumpBox ul li ul li{font-size:11px; margin: 0.75em;}
+/* =Image Styles */
+.imgArea {padding:15px;}
+.imgArea.floatRight{padding:15px 0 15px 15px;}
+.imgArea.floatLeft{padding:15px 15px 15px 0;}
+.imgArea img{padding:15px;}
+.imgArea img.noLeftPadding{padding-left:0px;}
+.imgArea.imgSmall{width:350px;}
+.imgArea .imgHeader {background-color:#003366; color:#fff; padding:15px;}
+.imgArea .imgHeader h4{font-size:14px;margin:0; padding:0;}
+.imgArea .imgHeader h4 a:link. a:visited a:hover {color: #fff;cursor: pointer;}
+.imgArea .imgHeader h4 span.deck, .imgArea .imgHeader h4 span.kicker{font-family: Arial,Helvetica,sans-serif; margin: 0; padding: 0;
+    font-size: 11px;}
+.imagemapleft {float: left;}
+.imagemapleft a {font-size: 0.65em; display: block;}
+        
+.footnotes p{font-family: Arial,Helvetica,sans-serif; font-size: 11px;}
+.borderBlue{border-bottom: 1px solid #253750;} 
+
+/***Back to top button */
+.backPage, #back-top {position: fixed; bottom: 30px; margin-left: 20px;
+}
+.backPage a, #back-top a { width: 108px; display: block; text-align: center;    font: 11px/100% Arial, Helvetica, sans-serif;    text-transform: uppercase;    text-decoration: none;    color: #bbb;
+    /* background color transition */ -webkit-transition: 1s;    -moz-transition: 1s; transition: 1s;}
+.backPage a:hover, #back-top a:hover {color: #000; background:url(https://www.federalreserve.gov/publications/gifjpg/up-arrow_invert.png) no-repeat center center;}
+/* arrow icon (span tag) */
+.backPage span, #back-top span { width: 108px; height: 100px; display: block; /*margin-bottom: 7px;*/ background:  url(https://www.federalreserve.gov/publications/gifjpg/up-arrownew.png) no-repeat center center;
+    /* rounded corners */-webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px;
+    /* background color transition */ -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+.backPage a:hover span,  #back-top a:hover span {/*background-color: #777;*/ background: url(https://www.federalreserve.gov/publications/gifjpg/up-arrow_invert.png) no-repeat center center;}
+.backSection, #backtotop { background-image:url(https://www.federalreserve.gov/publications/gifjpg/small_arrow.png); background-position:left; background-repeat:no-repeat; padding-left:22px; padding-bottom:10px; border-bottom:#f0ead0 solid 1px;}
+/* =2 Column: Used in the Abbreviations section */
+dl.tableDisplay { float: left; width: 350px; margin: 1em 0; padding: 15px; } 
+.tableDisplay dt { clear: left; float: left; width: 100px; margin: 0; padding: 10px; background-color:#FCF8E4; border-top:solid 1px #CCC; min-height:35px; } 
+.tableDisplay dd { float: left; width: 200px; margin: 0; padding: 10px; /*border-top: 1px solid #999;*/ background-color:#FCF8E4; border-top:solid 1px #CCC; border-left:solid 1px #CCC; min-height:35px;}
+.tableDisplayHigher dt, .tableDisplayHigher dd{ min-height:55px; } 
+.letterBox {background-color: #fff;    border: 1px solid #ccc;    margin: 2em 0;    padding: 2em;    position: relative;}
+.organization {    width:760px;}
+.organizationWithSidebar {}
+.organization .organizationGrid1, .organizationWithSidebar .organizationGrid1{width: 230px;}
+.organizationGrid1, .organizationGrid2 { display: inline; float: left; margin-left: 10px; margin-right: 10px;}
+.organization .organizationGrid1 ul, .organizationWithSidebar .organizationGrid1 ul{list-style: none outside none; margin: 10px 0; padding: 0;}
+.organization .organizationGrid1 ul li, .organizationWithSidebar ul li{padding:5px 0 5px 0 !important;}
+.organization .organizationGrid1 ul li h6, .organizationWithSidebar .organizationGrid1 ul li h6{margin:15px 0 0 0;}
+.organization .organizationGrid1 ul li ul, .organizationWithSidebar ul li ul{padding:0;margin:0;}
+.organization .organizationGrid1 ul li ul ul, .organizationWithSidebar ul li ul ul{padding:0;margin:0;}
+.organization .organizationGrid2, .organizationWithSidebar .organizationGrid2{width: 350px;}
+.organization .organizationGrid2 h6, .organizationWithSidebar .organizationGrid2 h6{margin:15px 0 0 0;}
+.serifText {font-family: "Times New Roman", Times, serif;}
+.smallCaps { font-variant:small-caps;}
+.letterSpace2px { letter-spacing: 2px;}
+
+.table_contents {position:relative;    float:left; width:733px; margin-left: 12px; margin-bottom: 30px;}
+.jumps_mid {position:relative;float:left; background-color: #eaf4fb;}
+.contents_mid {position:relative;    float:left; background-color: #eaf4fb; width:733px; border-top: dashed 1px #ccc;}
+.contents_mid h1{ margin-bottom:15px; margin-top: 0px; padding-top: 15px; font-size: 16px; font-family: "Times New Roman", Times, serif;}
+.contents_mid_left { position:relative; float:left; width:346px; padding-left: 10px;}
+.contents_mid_right { position:relative; float:left; width:351px; margin-top: 15px; padding-right: 15px;}
+.contents_section {position:relative;    float:left; width: 330px;    margin-top: 15px;}
+.contents_section h2 { font-size:16px;    margin-bottom:0px;    margin-top:0px;}
+.content_title { font-family: "Times New Roman", Times, serif; font-size:14px; font-weight: bold; border-bottom: solid 1px #999999; padding-bottom:15px; padding-top:5px;}
+.content_child {font-family: "Times New Roman", Times, serif;font-size:14px;font-weight: normal;
+padding-bottom:3px; margin-top:5px;}
+/*#rachels_menu ul li{width:300px;font-size:12px;font-family:Arial, Helvetica, sans-serif;}*/
+/*------ landing page styles--------------*/
+.landing {
+    width:770px;
+    float:left;
+    /* [disabled]padding-left: 20px;
+*/
+}
+.landing_left { width:329px; position:relative; float:left; background-image:url(https://www.federalreserve.gov/publications/gifjpg/annual_report.jpg); background-repeat:no-repeat;}
+.landing_left h2 { font-size:32px; color:#FFF; font-family: "Times New Roman", Times, serif; margin-left: 60px; margin-top: 30px; font-weight:lighter;}
+.landing_left p {width:300px;margin-left: 20px;margin-top:130px;}
+.landing_right {width:440px; position:relative; float:left; }
+.landing_right a {color:#333300;}
+.landing_right a:visited {color:#666600;}
+.landing_right h1 {font-family:"Times New Roman", Times, serif; font-size:20px; color:#333333;margin-left: 17px; margin-bottom: 0px; margin-top: 15px;}
+.landing_right table {background-color:#f1f6fa; margin-top: 20px;}
+.landing_right table tr { background-color:#FFF; border: solid 1px #d6deeb;}
+.landing_right table td {padding-left:15px;}
+#header {background-color:#f1f6fa; color:#333333; padding-left:15px;}
+.html_icon { position:relative; float:left; margin-left: 15px; background-image: url(https://www.federalreserve.gov/publications/gifjpg/html_icon.jpg); background-repeat: no-repeat; width: 177px; height: 78px;}
+.html_icon p { font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin-left: 70px; margin-top: 60px; margin-bottom: 0px; color: #333333; text-decoration: underline;}
+.html_icon a { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; text-decoration:none;}
+.pdf_icon { position:relative; float:left; background-image: url(https://www.federalreserve.gov/publications/gifjpg/pdf_icon.jpg); background-repeat: no-repeat; width: 177px; height: 78px;}
+.pdf_icon p { font-family: Arial, Helvetica, sans-serif; font-size: 12px; margin-left: 50px; margin-top: 55px; margin-bottom: 0px; color: #333333; text-decoration: underline;}
+.pdf_icon a { font-family: Arial, Helvetica, sans-serif; font-size: 12px; color: #333333; text-decoration:none;}
+.landing_right_reports { position:relative; float:left; width:inherit; margin-top: 15px;}
+.four_ways { position:relative; float:left; background-color:#e5edfb; background-image:url(https://www.federalreserve.gov/publications/gifjpg/4_easy.jpg); background-repeat: no-repeat; width:732px; height:240px; color:#2c4261; font-family:Arial, Helvetica, sans-serif; font-size:11px;}
+.four_ways h1 { font-size:14px; font-weight:bold; margin-bottom: 0px; padding-bottom: 0px; font-family: Arial, Helvetica, sans-serif;}
+.four_ways a { color:#2c4261;}
+.four_ways_inside { position:relative; float:left; margin-top: 70px; width: 730px;}
+.four_ways_content { position:relative; float:left; margin-left: 90px;}
+.four_ways_content_two { position:relative; float:left; margin-left: 50px;}
+.four_ways_content_three { position:relative; float:left; margin-left: 45px;}
+.four_ways_content_four { position:relative; float:left; margin-left: 45px;}
+.single { position: absolute; margin-left: 10px; margin-top: 40px; font-size: 12px; left: 43px; top: 158px; width: 340px;}
+.payment { position:relative; float:left; margin-left: 405px; margin-top: 30px; font-size: 12px;}
+#year { margin-right:10px;}
+.or { position:relative; float:left; margin-top: 30px; margin-left: 20px; margin-right: 20px;}/*--------------------------END REPORT STYLES---------------------------------*/
+ 
+/*Data Driven */
+.pubtables.dataDriven ul{ list-style:none; text-align:left; padding:0; margin:0;}
+table.pubtables.dataDriven .data{text-align:left; vertical-align:middle;}
+
+#dataDriven .sequentialRight a#nextButton {
+    background-position: 170px -39px;
+    width: 200px;
+}
+#dataDriven #subNav {
+    width: 715px;
+    height: 77px;
+    background-color:#ececec;
+    float:left;
+}
+#dataDriven .sequential span#pageTitleText.text {
+    width: 200px;
+    margin-top:0;
+    font-size:12px;
+}
+#dataDriven .sequentialRight a#nextButton:hover {
+    background-position: 170px 0px;
+}
+#printIcon_dataDriven {background-color: #ffffff; left: 670px; margin: 0; padding: 0.5em; position: absolute; filter: alpha(opacity=80); opacity: 0.8; font-size: 0.85em;}
+#printIcon_dataDriven a:link {padding-left: 6px;}
+ 
+#dataDriven .jumpArea.jumpSection {
+    margin-top:0;
+}
